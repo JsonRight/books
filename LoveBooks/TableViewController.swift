@@ -19,7 +19,7 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         self.tableView.register(UINib.init(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "TableViewCell");
         
-        
+        ////////
         
 //        let image  = UIImage(named: "64x64分享图")
 //        let imageData : NSData = UIImagePNGRepresentation(image!)! as NSData
